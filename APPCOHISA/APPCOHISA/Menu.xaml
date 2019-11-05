@@ -32,12 +32,7 @@
             <StackPanel Height="26" Margin="1,224,0,0" VerticalAlignment="Top" Width="5" HorizontalAlignment="Left" Background="#FF0050C8"/>
             <Button x:Name="btnVarios" Content="Varios" HorizontalAlignment="Right" Height="26" Margin="0,250,0,0" VerticalAlignment="Top" Width="184" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Cursor="Hand" Foreground="#FFF9F7F7" Background="#FF1A2028"/>
             <StackPanel Height="26" Margin="1,250,0,0" VerticalAlignment="Top" Width="5" HorizontalAlignment="Left" Background="#FF0050C8"/>
-            <Button x:Name="sub1" Content="nose" HorizontalAlignment="Right" Margin="0,285,14,20" Width="72" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Cursor="Hand" Foreground="#FFF9F7F7" Background="#FF1A2028"/>
-            <StackPanel Height="26" Margin="103,288,0,0" VerticalAlignment="Top" Width="5" HorizontalAlignment="Left" Background="#FF0050C8"/>
-            <Button x:Name="sub2" Content="alla" HorizontalAlignment="Right" Height="26" Margin="0,309,17,0" VerticalAlignment="Top" Width="72" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Cursor="Hand" Foreground="#FFF9F7F7" Background="#FF1A2028" Grid.RowSpan="2"/>
-            <StackPanel Height="26" Margin="102,312,0,0" VerticalAlignment="Top" Width="5" HorizontalAlignment="Left" Background="#FF0050C8" Grid.RowSpan="2"/>
             <ToolBarOverflowPanel x:Name="panelSubmenu" HorizontalAlignment="Left" Height="59" Margin="91,283,0,0" VerticalAlignment="Top" Width="88" Grid.RowSpan="2"/>
-            <Button x:Name="salir" Content="Button" HorizontalAlignment="Left" Height="24" Margin="33,18,0,0" Grid.Row="1" VerticalAlignment="Top" Width="68" Click="salir_click"/>
 
 
         </Grid>
