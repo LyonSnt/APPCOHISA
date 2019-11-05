@@ -104,5 +104,17 @@
   <ItemGroup>
     <Resource Include="cerrar.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="res.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="minimazar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LogoCompiladores.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logoIcon.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

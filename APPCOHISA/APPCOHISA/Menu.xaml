@@ -5,13 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:APPCOHISA"
         mc:Ignorable="d"
-        Title="Menu" Height="450" Width="800">
+        Title="Menu" Height="450" Width="800" Visibility="Visible" Icon="logoIcon.ico">
     <Grid>
-        <Menu HorizontalAlignment="Left" Height="27.644" Margin="-0.218,-0.53,-0.008,0" VerticalAlignment="Top" Width="792.226" Background="#FF0050C8"/>
-        <Grid x:Name="MenuVertical" Margin="-1,26.5,580.5,-1" Background="#FF1A2028"/>
-        <DockPanel HorizontalAlignment="Left" Height="202.5" LastChildFill="False" Margin="624.5,130.5,0,0" VerticalAlignment="Top" Width="93"/>
-        <DockPanel LastChildFill="False" Margin="211,26.5,0,0" Background="#FF314252"/>
-        <Image Height="25" Margin="765,1,2,0" Width="25" HorizontalAlignment="Center" VerticalAlignment="Top" Source="cerrar.png"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="413*"/>
+            <ColumnDefinition Width="379*"/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="MenuVertical" Margin="-1,29.5,0,-2.5" Background="#FF1A2028" Width="220" Height="392" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image Height="93" Margin="1,0.5,0,0" VerticalAlignment="Top" Width="219" Source="LogoCompiladores.jpg" HorizontalAlignment="Left"/>
+            <Button Content="Inicio" HorizontalAlignment="Left" Height="25" Margin="39,120.5,0,0" VerticalAlignment="Top" Width="102" Background="#FF1A2028" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Cursor="Hand" Foreground="#FFF9F7F7"/>
+        </Grid>
+        <DockPanel HorizontalAlignment="Left" Height="202.5" LastChildFill="False" Margin="211.5,130.5,0,0" VerticalAlignment="Top" Width="93" Grid.Column="1"/>
+        <DockPanel x:Name="Contenedor" LastChildFill="False" Margin="218.5,29.5,-0.5,-0.5" Background="#FF314252" Height="390" Grid.ColumnSpan="2"/>
+        <DockPanel x:Name="barraMenu" HorizontalAlignment="Left" Height="30" LastChildFill="False" VerticalAlignment="Top" Width="1300" Background="#FF0050C8" Grid.ColumnSpan="2" Margin="0,0,-508,0"/>
+        <Image x:Name="imgCerrar" Height="20" Margin="349.5,4,9.5,0" Width="20" VerticalAlignment="Top" Source="cerrar.png" Grid.Column="1"/>
+        <Image x:Name="imgMaximizar" Height="20" Margin="322.5,5,36.5,0" Width="20" VerticalAlignment="Top" Source="res.png" RenderTransformOrigin="-1.975,0.65" Grid.Column="1"/>
+        <Image x:Name="imgMinimizar" Height="20" Margin="293.5,4,65.5,0" Width="20" VerticalAlignment="Top" Source="minimazar.png" RenderTransformOrigin="-1.975,0.65" Grid.Column="1"/>
 
     </Grid>
 </Window>
