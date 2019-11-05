@@ -24,5 +24,9 @@ namespace APPCOHISA
             InitializeComponent();
         }
 
+        private void BtnInicio_Copy_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

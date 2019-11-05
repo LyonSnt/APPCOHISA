@@ -14,13 +14,25 @@
             <ColumnDefinition Width="17*"/>
             <ColumnDefinition Width="107*"/>
         </Grid.ColumnDefinitions>
-        <Grid x:Name="MenuVertical" Margin="-1,30,0,-3" Background="#FF1A2028" Width="220" Height="392" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Image Height="93" Margin="1,0.5,0,0" VerticalAlignment="Top" Width="219" Source="LogoCompiladores.jpg" HorizontalAlignment="Left"/>
-            <Button Content="Inicio" HorizontalAlignment="Left" Height="25" Margin="39,120.5,0,0" VerticalAlignment="Top" Width="102" Background="#FF1A2028" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Cursor="Hand" Foreground="#FFF9F7F7"/>
-            <Button Content="Button" HorizontalAlignment="Left" Margin="100,177,0,0" VerticalAlignment="Top" Width="75"/>
+        <Grid x:Name="MenuVertical" Margin="-1,30,0,-3" Background="#FF1A2028" Width="190" Height="392" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image Height="75" Margin="1,0,0,0" VerticalAlignment="Top" Width="189" Source="LogoCompiladores.jpg" HorizontalAlignment="Left"/>
+            <Button x:Name="btnInicio" Content="Inicio" HorizontalAlignment="Right" Height="26" Margin="0,120,0,0" VerticalAlignment="Top" Width="184" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Cursor="Hand" Foreground="#FFF9F7F7" Background="#FF1A2028"/>
+            <StackPanel Height="26" Margin="1,120,0,0" VerticalAlignment="Top" Width="5" HorizontalAlignment="Left" Background="#FF0050C8"/>
+            <Button x:Name="btnLexico" Content="Inicio" HorizontalAlignment="Right" Height="26" Margin="0,146,0,0" VerticalAlignment="Top" Width="184" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Cursor="Hand" Foreground="#FFF9F7F7" Background="#FF1A2028" Click="BtnInicio_Copy_Click"/>
+            <StackPanel Height="26" Margin="1,146,0,0" VerticalAlignment="Top" Width="5" HorizontalAlignment="Left" Background="#FF0050C8"/>
+            <Button x:Name="btnSintactico" Content="Inicio" HorizontalAlignment="Right" Height="26" Margin="0,172,0,0" VerticalAlignment="Top" Width="184" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Cursor="Hand" Foreground="#FFF9F7F7" Background="#FF1A2028"/>
+            <StackPanel Height="26" Margin="1,172,0,0" VerticalAlignment="Top" Width="5" HorizontalAlignment="Left" Background="#FF0050C8"/>
+            <Button x:Name="btnSemantico" Content="Inicio" HorizontalAlignment="Right" Height="26" Margin="0,198,0,0" VerticalAlignment="Top" Width="184" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Cursor="Hand" Foreground="#FFF9F7F7" Background="#FF1A2028"/>
+            <StackPanel Height="26" Margin="1,198,0,0" VerticalAlignment="Top" Width="5" HorizontalAlignment="Left" Background="#FF0050C8"/>
+            <Button x:Name="btnInicio_Copy3" Content="Inicio" HorizontalAlignment="Right" Height="26" Margin="0,224,0,0" VerticalAlignment="Top" Width="184" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Cursor="Hand" Foreground="#FFF9F7F7" Background="#FF1A2028"/>
+            <StackPanel Height="26" Margin="1,224,0,0" VerticalAlignment="Top" Width="5" HorizontalAlignment="Left" Background="#FF0050C8"/>
+            <Button x:Name="btnInicio_Copy4" Content="Inicio" HorizontalAlignment="Right" Height="26" Margin="0,250,0,0" VerticalAlignment="Top" Width="184" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Cursor="Hand" Foreground="#FFF9F7F7" Background="#FF1A2028"/>
+            <StackPanel Height="26" Margin="1,250,0,0" VerticalAlignment="Top" Width="5" HorizontalAlignment="Left" Background="#FF0050C8"/>
+
+
         </Grid>
         <DockPanel HorizontalAlignment="Left" Height="203" LastChildFill="False" Margin="18,130,0,0" VerticalAlignment="Top" Width="94" Grid.Column="2" Grid.ColumnSpan="3"/>
-        <DockPanel x:Name="Contenedor" LastChildFill="False" Margin="218,30,0,-1" Background="#FF314252" Height="390" Grid.ColumnSpan="5"/>
+        <DockPanel x:Name="Contenedor" LastChildFill="False" Margin="189,30,0,-1" Background="#FF314252" Height="390" Grid.ColumnSpan="5"/>
         <DockPanel x:Name="barraMenu" HorizontalAlignment="Left" Height="30" LastChildFill="False" VerticalAlignment="Top" Width="795" Background="#FF0050C8" Grid.ColumnSpan="5" Margin="0,0,-508,0"/>
         <Image x:Name="imgCerrar" Height="20" Margin="77,4,10,0" Width="20" VerticalAlignment="Top" Source="cerrar.png" Grid.Column="4"/>
         <Image x:Name="imgMaximizar" Height="20" Margin="51,5,36,0" Width="20" VerticalAlignment="Top" Source="res.png" RenderTransformOrigin="-1.975,0.65" Grid.Column="4"/>
