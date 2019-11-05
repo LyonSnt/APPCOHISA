@@ -29,5 +29,15 @@ namespace APPCOHISA
         {
 
         }
+
+        private void BtnVarios_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+        private void salir_click(object sender, RoutedEventArgs e)
+        {
+           
+        }
     }
 }
